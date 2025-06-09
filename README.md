@@ -21,15 +21,7 @@ The system simulates appliances like **lights, air conditioners, TVs, and speake
 
 ##  Project Structure
 
-voice-control-project/
-──  server/
-     ──  voice_server.py # Flask server handling voice commands
-     ── tm1637.py # TM1637 display control module
-──  images/
-     ── DEMO.mp4 # Demo video of the project
-── docs/
-     ── 語音指令控制系統_期末.pdf # Final project report (Chinese)
-── README.md
+<pre><code>```plaintext voice-control-project/ ├── server/ │ ├── voice_server.py # Flask server handling voice commands │ └── tm1637.py # TM1637 display control module ├── images/ │ └── DEMO.mp4 # Demo video of the project ├── docs/ │ └── 語音指令控制系統_期末.pdf # Final project report (Chinese) └── README.md ```</code></pre>
 
 
 ---
